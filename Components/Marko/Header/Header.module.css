@@ -1,0 +1,23 @@
+.container{
+    width: 80vw;
+    margin: 2rem auto;
+}
+/* .heroImgContainer{
+    position: relative;
+    bottom: 12.6rem;
+} */
+.heroImg1{
+    width: 10vw;
+    position: relative;
+    bottom: 12.7rem;
+}
+.heroImg2{
+    width: 10vw;
+    position: relative;
+    bottom: 12.3rem;
+}
+.heroImg3{
+    width: 10vw;
+    position: relative;
+    bottom: 12.56rem;
+}

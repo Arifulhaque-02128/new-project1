@@ -1,0 +1,18 @@
+.itemStyle{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50vw;
+    padding: 0.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.selectedItemStyle{
+    background-color: #C1ECFB;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50vw;
+    padding: 0.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}

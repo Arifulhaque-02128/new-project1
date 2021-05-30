@@ -1,0 +1,27 @@
+.container{
+    width: 90vw;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.inputField{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputField > input{
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 20vw;
+}
+.joinBtn{
+    border: 1px solid black;
+    background-color: #188EDD;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+}

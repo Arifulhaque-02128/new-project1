@@ -1,0 +1,56 @@
+.todoCard{
+    background-color: #eaeaea;
+    border-radius: 8px;
+    padding: 20px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50vw;
+    margin: 20px 10px;
+    box-shadow: 2px 2px 1px 1px;
+}
+.todoCard > div {
+    display: flex;
+    margin: 0 10px;
+}
+.todoCard > div > input {
+    width: 30px;
+    height: 30px;
+}
+
+.todoContainer{
+    display: flex;
+    place-content: center;
+}
+
+.iconStyle{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    color: red;
+    width: 30px;
+    height: 30px;
+}
+.icon:hover{
+    color: tomato;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width: 900px){
+    .todoCard{
+        background-color: #eaeaea;
+        border-radius: 8px;
+        padding: 20px 10px 10px 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90vw;
+        margin: 20px 10px;
+        box-shadow: 2px 2px 1px 1px;
+    }
+}
