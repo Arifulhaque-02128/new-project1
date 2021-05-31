@@ -1,0 +1,85 @@
+.container{
+    width: 90vw;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(245, 245, 245);
+    padding: 4rem 1rem;
+}
+
+.card{
+    background-color: white;
+    width: 25vw;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card:hover{
+    border-top: 2px solid teal;
+    box-shadow: 2px 2px 25px 25px #eaeaea;
+}
+.card > img{
+    width: 120px;
+    height: 63px;
+}
+
+.card > p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0.5rem 0rem;
+    height: 8rem;
+    
+}
+.nextIcon{
+    position: relative;
+    left: 20vw;
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 90vw;
+        margin: 4rem auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: rgb(245, 245, 245);
+        padding: 1rem auto;
+    }
+    .card{
+        background-color: white;
+        width: 40vw;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .nextIcon{
+        position: relative;
+        left: 32vw;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        width: 90vw;
+        margin: 4rem auto;
+        display: grid;
+        grid-template-columns: auto;
+        background-color: rgb(245, 245, 245);
+        padding: 1rem auto;
+    }
+    .card{
+        background-color: white;
+        width: 75vw;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .nextIcon{
+        position: relative;
+        left: 61vw;
+    }
+}
