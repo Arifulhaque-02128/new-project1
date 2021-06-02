@@ -1,0 +1,43 @@
+.requestCard{
+    text-align: left;
+    width: 57vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0px gray;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    margin: 1rem 0rem;
+}
+.requestBtn{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #C1ECFB;
+    padding: 0.5rem 1rem;
+    margin: 0rem 1rem;
+}
+.requestCard > .leftSide{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.requestCard > .leftSide > img{
+    margin: 0rem 2rem;
+    width: 30px;
+    height: 30px;
+}
+
+/* for Feature Form Style */
+.formStyle{
+    padding: 0.8rem;
+    width: 40vw;
+    font-style: italic;
+}
+.sendBtn{
+    color: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    background-color: #188EDD;
+}

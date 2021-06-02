@@ -17,7 +17,7 @@ const Home = ({initialTodo, fetchData}) => {
       </Head>
 
       <Navbar />
-      <TodoComponent />
+      {/* <TodoComponent /> */}
       
     </div>
   )
