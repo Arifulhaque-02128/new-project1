@@ -1,0 +1,85 @@
+.container{
+    width: 70vw;
+    margin: 5rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    // background-color: red;
+}
+
+.textContainer{
+    width: 40%;
+    h3{
+        font-size: 36px;
+        color: #1C3041;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+    span{
+        color:  #0D7ABE;
+    }
+    p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    button{
+        border: none;
+        background-color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px gray;
+    }
+}
+
+.imgContainer{
+    background-color: tomato;
+    width: 50%;
+}
+
+
+.scaleContainer{
+    width: 70%;
+    margin: 5rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h3{
+        margin: 1rem 7rem;
+        font-size: 36px;
+        color: #1C3041;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    span{
+        color:  #0D7ABE;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.circularCard{
+    margin: 1rem 5rem;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px gray;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.rectCard{
+    width: 100%;
+    background-color: #FAFAFA;
+    margin: 5rem auto;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
+    border-radius: 10px;
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}
