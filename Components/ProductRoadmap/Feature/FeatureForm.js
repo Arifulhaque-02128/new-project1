@@ -8,6 +8,7 @@ const FeatureForm = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (data, e) => {
+        setOpen(true)
         e.target.reset()
         console.log(data)
     };
@@ -31,7 +32,7 @@ const FeatureForm = () => {
                 {errors.email && <span style={{color: "red"}}>This field is required</span>}
                 <br /> <br />
 
-                <input className={styles.sendBtn} onClick={() => setOpen(true)} type="submit" value="Send" />
+                <input className={styles.sendBtn} type="submit" value="Send" />
             </form>
             {
                 open ? 
