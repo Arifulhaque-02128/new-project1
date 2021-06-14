@@ -6,7 +6,7 @@ import styles from './BookCall.module.css';
 
 const BookCall  = () => {
 
-    const apiKey = "keyKnEnrOj0El4g50";
+    const apiKey = process.env.AIRTABLE_BOOKCALL_API_KEY;
 
     const axiosConfig = {
         headers: {
