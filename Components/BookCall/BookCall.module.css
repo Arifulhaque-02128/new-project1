@@ -1,0 +1,133 @@
+/* style for popup */
+
+.popup{
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    padding: 3rem 3.5rem;
+    margin: 2rem auto;
+    position: relative;
+    bottom: 15vw;
+    right: 15vw;
+}
+.cancel{
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    width: fit-content;
+    position: absolute;
+    bottom: 37vw;
+    right: 1vw;
+}
+.cancel:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+@media only screen and (max-width: 900px){
+    
+    .popup{
+        width: 450px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px gray;
+        padding: 3rem 2rem;
+        margin: 2rem 3rem;
+        position: relative;
+        bottom: 15vw;
+        right: 15vw;
+    }
+    .cancel{
+        font-size: 30px;
+        font-weight: 500;
+        cursor: pointer;
+        width: fit-content;
+        position: absolute;
+        bottom: 50rem;
+        right: 30rem;
+    }
+    .cancelForSuccess{
+        font-size: 30px;
+        font-weight: 500;
+        cursor: pointer;
+        width: fit-content;
+        position: absolute;
+        top: 0px;
+        right: 10px;
+    }
+    .cancelForSuccess:hover{
+        cursor: pointer;
+        color: gray;
+    }
+
+        /* Form Style */
+    .formStyle{
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        width: 95% !important;
+    }
+}
+
+/* Form Style */
+.formStyle{
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 30vw;
+}
+.sendBtn{
+    color: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    background-color: #188EDD;
+}
+
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7AC142;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+  }
+  .checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #7AC142;
+    animation: fill 0.4s ease-in-out 0.4s forwards,
+      scale 0.3s ease-in-out 0.9s both;
+  }
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes scale {
+    0%,
+    100% {
+      transform: none;
+    }
+    50% {
+      transform: scale3d(1.1, 1.1, 1);
+    }
+  }
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0px 0px 0px 30px #7AC142;
+    }
+  }
